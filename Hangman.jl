@@ -86,7 +86,7 @@ end
 word = get_input("Player 1, please enter your word (word will disappear once entered): ", true, true)
 
 # Open and setup window for man to be drawn
-game_window = GtkWindow("My First Gtk.jl Program", 600, 600)
+game_window = GtkWindow("Hangman", 600, 600)
 
 g = GtkGrid()
 g[1, 1] = c
