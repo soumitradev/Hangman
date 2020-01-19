@@ -48,7 +48,7 @@ end
 
 # Draw the man according to the number of guesses left
 function render_man(lefta)
-    abc = [([200, 180], [200, 350]), ([200, 180], [150, 280]), ([200, 180], [250, 280]), ([200, 350], [150, 450]), ([250, 350], [200, 450])]
+    abc = [([200, 180], [200, 350]), ([200, 180], [150, 280]), ([200, 180], [250, 280]), ([200, 350], [150, 450]), ([200, 350], [250, 450])]
     @guarded draw(c) do widget
         ctx = getgc(c)
         h = height(c)
