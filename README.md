@@ -12,3 +12,7 @@ Features:
 ![](./animated.gif)
 
 I know this is very little description, but its hangman! What do I describe?!
+
+
+## Why?
+Why not?
